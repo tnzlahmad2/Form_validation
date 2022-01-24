@@ -1,0 +1,21 @@
+function calculator(firstValue,secondValue,op){
+  return subtract(firstValue,secondValue)
+  // return result;
+}
+function add(val1,val2){
+  return val1+val2;
+}
+function subtract(val1,val2){
+  return val1-val2;
+}
+function multiply(){
+   return val1*val2;
+}
+let first=192;
+let second=13;
+let op='+';
+let result=calculator(first,second,op);
+console.log(result);
+
+
+
